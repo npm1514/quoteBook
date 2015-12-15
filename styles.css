@@ -1,0 +1,14 @@
+button {
+	width: 150px;
+}
+input {
+	width: 250px;
+}
+p {
+	width: 300px;
+	font-size: 25px;
+}
+span {
+	color: maroon;
+	font-size: 30px;
+}

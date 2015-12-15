@@ -12,14 +12,18 @@ app.service('dataService', function() {
     { text: 'What even is a jQuery?', author: 'Tyler S. McGinnis'}
   ];
 
-  this.getData() {
+  this.getData = function() {
   	return quotes;
   };
-  this.addData() {
-//Continue here....Stopped in the middle of step 2
+  this.addData = function(data) {
+          return quotes.push({text:data});
   };
-  this.removeData() {
-
-  };
+  // this.removeData = function(saying) {
+  //   for (var i = 0; i < quotes.length; i++) {
+  //     if (quotes[i].text === saying) {
+  //       return quotes.splice(i, 1);
+  //     }
+  //   }
+  // };
 
 });
